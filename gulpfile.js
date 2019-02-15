@@ -23,7 +23,7 @@ function reload(done) {
 // WATCH
 // =====================================
 function watchTask() {
-	watch("index.html", reload);
+	watch("*.html", reload);
 
 	// sass
 	watch("./src/sass/**/*.scss", function() {
